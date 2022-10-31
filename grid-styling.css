@@ -17,10 +17,17 @@
     font-size: 13px;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 .main-container{
     display: grid;
     max-width: 100vw;
-    max-height: 70vh;
+    max-height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     padding: 7rem;
@@ -57,10 +64,6 @@
     background-repeat: no-repeat;
     background-position: 80% 5%;
     
-}
-
-.inner-container1 :last-child{
-    background-color: inherit;
 }
 
 
